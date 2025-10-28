@@ -1,0 +1,73 @@
+body {
+  background: #f3f4f7;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 400px;
+  background: white;
+  box-shadow: 0 2px 10px #ccc;
+  margin: 60px auto;
+  padding: 2em;
+  border-radius: 12px;
+}
+h1 { text-align: center; }
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 0.6em;
+  font-size: 1em;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+button {
+  padding: 0.6em 1em;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.goal-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7faff;
+  padding: 0.8em;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  transition: background 0.2s;
+}
+.goal-item.done {
+  background: #bde5b8;
+  text-decoration: line-through;
+}
+.goal-actions {
+  display: flex;
+  gap: 6px;
+}
+.mark-btn, .del-btn {
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mark-btn {
+  background: #41b883;
+  color: white;
+}
+.del-btn {
+  background: #e82c2a;
+  color: white;
+}
