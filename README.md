@@ -1,1 +1,1 @@
-# A-Personal-Daily-Goals-Tracker
+personal-daily-goal-tracker
